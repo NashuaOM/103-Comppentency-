@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Welcome to the most extraordinary hotel in Boston Massachusetts">
+  <meta name="keywords" content="hotel,boston hotel,new england hotel">
+  <link rel="stylesheet" href="css/style.css">
+  <title>FAMOUS Calulator</title>
+</head>
+<body>
+  
+
+
+  <section id="testimonials" class="py-3">
+    <div class="container">
+      <h2 class="l-heading">How to use Calulator</h2>
+      <div class="testimonial bg-primary">
+        <img src="./img/computer.jpg" alt="Joshua">
+        <p> The First step is to choose Value 1. <br>
+          The Second Step is to choose value 2. <br>
+          The Third step is to choose the operation you would like to excute. <br>
+          
+        </p>
+        <form>
+          <label for="value1">Value 1:</label>
+          <input type="text" id="value1">
+      
+          <label for="value2">Value 2:</label>
+          <input type="text"  id="value2">
+
+          <label for="operator">Operation</label>
+          <select  id="operator">
+            <option value="add">Add</option>
+            <option value="mul">Multiply</option>
+            <option value="sub">Subtract</option>
+            <option value="div">Divid</option>
+          </select>
+      
+          <button type="button" onclick="calc()">Calculate</button>
+          <div id="results"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer id="main-footer">
+    <p> &copy; 2021, All RIghts Reserved Joshua Palmier</p>
+  </footer>
+
+  <script src="/hotel_website/script.js"></script>
+</body>
+</html>
